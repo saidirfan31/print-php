@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+  }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .box {
+    float: left;
+    width: 33.33%;
+  }
+  .box-2 {
+    float: left;
+    width: 50%;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  body {
+    position: relative;
+    width: 21cm;  
+    height: 29.7cm; 
+    margin: 0 auto; 
+    color: #000;
+    background: #FFFFFF; 
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
+    font-family: Arial;
+  }
+  
+  header {
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
+    font-family: Arial;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+  }
+  
+  #project {
+    text-align: left;
+  }
+  
+  #project span {
+    color: #5D6975;
+    text-align: left;
+    width: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+    display: inline-block;
+  }
+  
+  #company {
+    float: right;
+    text-align: right;
+  }
+
+  #logo {
+    text-align: left;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+  }
+  
+  #logo img {
+    width: 150px;
+    float: left;
+  }
+  
+  #qr {
+    text-align: right;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+  }
+  
+  #qr img {
+    width: 150px;
+    float: right;
+  }
+  
+  #project div,
+  #company div {
+    white-space: nowrap;        
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* table tr:nth-child(2n-1) td {
+    background: #F5F5F5;
+  } */
+  
+/* th, td {
+    width: 20%;
+} */
+
+  table th,
+  table td {
+    text-align: right;
+  }
+  
+  table th {
+    padding: 5px 20px;
+    color: #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    white-space: nowrap;        
+    font-weight: normal;
+  }
+  
+  table .service,
+  table .desc {
+    text-align: left;
+  }
+  
+  table td {
+    padding: 8px;
+    text-align: right;
+  }
+  
+  table td.service,
+  table td.desc {
+    vertical-align: top;
+  }
+  
+  table td.unit,
+  table td.qty,
+  table td.total {
+    font-size: 20px;
+  }
+  
+  table td.grand {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  
+  #notices .notice {
+    color: #5D6975;
+    font-size: 1em;
+  }
+  
+  footer {
+    color: #5D6975;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #C1CED9;
+    padding: 8px 0;
+    text-align: center;
+  }
+
+  .float-left{
+      float:left;
+  }
+
+  .float-right{
+      float:right;
+  }
